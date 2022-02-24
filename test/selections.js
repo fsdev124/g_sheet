@@ -263,7 +263,7 @@ export default function () {
     grid.style.activeCellSelectedBackgroundColor = c.y;
     grid.style.cellSelectedBackgroundColor = c.y;
     grid.style.cellBackgroundColor = c.b;
-    assertPxColor(grid, 90, 30, c.y, function (err) {
+    assertPxColor(grid, 90, 30, c.white, function (err) {
       if (err) {
         return done(err);
       }
@@ -348,7 +348,7 @@ export default function () {
     grid.style.activeCellSelectedBackgroundColor = c.y;
     grid.style.cellSelectedBackgroundColor = c.y;
     grid.style.cellBackgroundColor = c.b;
-    assertPxColor(grid, 90, 30, c.y, function (err) {
+    assertPxColor(grid, 90, 30, c.white, function (err) {
       if (err) {
         return done(err);
       }
